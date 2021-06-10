@@ -11,3 +11,20 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.devise-controllers {
+  margin-top: 40px;
+}
+
+.devise-controllers .btn {
+  @extend .btn-primary;
+}
+
+.devise-controllers a {
+  margin-top: 5px;
+}
+
+#app-div {
+  min-height: calc(100vh - 100px);
+}
+
