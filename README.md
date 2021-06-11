@@ -24,6 +24,12 @@ CONFIGURATION STEPS
  4 - Run DB Migrations
    rails db:migrate
 
+RUNING THE APP:
+ Lanch Ruby on Rails
+   Rails s
+ And check it at your browser:
+   localhost:3000
+
 HOW THE APP WORKS:
 The app shows to customer the actual status and system message and a history of statuses and messages.
 For updating the status or system message is necessary to login with admin privilegies (for this app, just set user.admin = true using Rails Console).
