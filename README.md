@@ -25,9 +25,11 @@ CONFIGURATION STEPS
    rails db:migrate
 
 RUNING THE APP:
- Lanch Ruby on Rails
-   Rails s
- And check it at your browser:
+
+ 1 - Lanch Ruby on Rails
+   rails s
+   
+ 2 - And check it at your browser:
    localhost:3000
 
 HOW THE APP WORKS:
