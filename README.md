@@ -21,12 +21,12 @@ CONFIGURATION STEPS
    yarn add "jquery@1.9.1 - 3".
    yarn add "popper.js@^1.16.1".
     
- 4 - Run DB Migrations
+ 4 - Run DB Migrations:
    rails db:migrate
 
 RUNING THE APP:
 
- 1 - Lanch Ruby on Rails
+ 1 - Lanch Ruby on Rails:
    rails s
    
  2 - And check it at your browser:
