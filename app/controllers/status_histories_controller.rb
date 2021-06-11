@@ -7,8 +7,8 @@ class StatusHistoriesController < ApplicationController
 
   def new
     @status_history = StatusHistory.new
-    @status_history.status = StatusHistory.last.status
-    @status_history.message = StatusHistory.last.message
+    @status_history.status = StatusHistory.last.status if StatusHistory.last.present?
+    @status_history.message = StatusHistory.last.message if StatusHistory.last.present?
     # authorize @service
   end
 
