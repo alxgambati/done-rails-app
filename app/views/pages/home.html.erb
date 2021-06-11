@@ -1,1 +1,32 @@
-<h1>Our first view 🚀</h1>
+<div class="container">
+  <div class="actual-status mt-5">
+    <h3>Actual System Status</h3>
+    <span class="mt-3">Done-Rails-App is </span><span class="badge badge-sucess"><%= StatusHistory.last.status %></span><br>
+    <span>System Message is </span><span class="badge badge-sucess"><%= StatusHistory.last.message %></span>
+  </div>
+  <div class="system-history mt-5">
+    <h3>System History</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Status</th>
+          <th scope="col">Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @status_histories.each do |status_history| %>
+          <tr>
+            <th scope="row"><%= status_history.created_at %></th>
+            <td><%= status_history.status %></td>
+            <td><%= status_history.message %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+
+
+
