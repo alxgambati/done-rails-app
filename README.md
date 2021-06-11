@@ -40,6 +40,7 @@ For updating the status or system message is necessary to login with admin privi
 
 
 Login with a admin privilegies user
+(for this app, just set user.admin = true using Rails Console).
 
 ![Captura de tela de 2021-06-10 21-57-29](https://user-images.githubusercontent.com/61168030/121616231-e2623b80-ca38-11eb-8797-0cc0a9978a2e.png)
 
@@ -63,9 +64,5 @@ Now the new variables are shown and system history is updated!
 
 ![Captura de tela de 2021-06-10 22-13-21](https://user-images.githubusercontent.com/61168030/121616362-29503100-ca39-11eb-987c-5c36463ed14e.png)
 
-
-* Deployment at
-
-Please use this Admin credentials:  username:  admin@doneapp.com   password:  123456
 
 * ...
