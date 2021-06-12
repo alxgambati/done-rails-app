@@ -17,12 +17,7 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.2"
   },
-  "babel": {
-    "presets": [
-      "./node_modules/@rails/webpacker/package/babel/preset.js"
-    ]
-  },
-  "browserslist": [
-    "defaults"
-  ]
+    "babel": {
+    "presets": ["./node_modules/@rails/webpacker/package/babel/preset.js"]
+  }
 }
